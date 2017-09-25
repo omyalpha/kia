@@ -19,6 +19,14 @@
   text-align: right !important;
 }
 
+.iconfont {
+  font-size: 60px !important;
+}
+
+.orangefont{ color: #ff9800 !important;}
+.redfont{ color: #f44336 !important;}
+.greenfont{ color: #4caf50 !important;}
+
 .orange{ background: #ff9800; border:1px solid #ff9800 !important; color:#ffffff;}
 .red{ background: #f44336; border:1px solid #f44336 !important; color:#ffffff;}
 .blue{ background: #2196f3; border:1px solid #2196f3 !important; color:#ffffff;}
