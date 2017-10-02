@@ -12,7 +12,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/departures.php',
+						url:'http://webhosting.sd/~kiaapp/departures.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -100,7 +100,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/arrivals.php',
+						url:'http://webhosting.sd/~kiaapp/arrivals.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -191,7 +191,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/about.php',
+						url:'http://webhosting.sd/~kiaapp/about.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -246,7 +246,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/vip.php',
+						url:'http://webhosting.sd/~kiaapp/vip.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -307,7 +307,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/baggage.php',
+						url:'http://webhosting.sd/~kiaapp/baggage.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -342,7 +342,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/kia.php',
+						url:'http://webhosting.sd/~kiaapp/kia.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -377,7 +377,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/sas.php',
+						url:'http://webhosting.sd/~kiaapp/sas.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -421,7 +421,7 @@ $$(document).on("pageInit", function(e) {
 				  dataType: "jsonp",
 				  jsonpCallback: "jsonCallback",
 				  type: "GET",
-				  url: "http://webhosting.sd/~sasapp/contact.php",
+				  url: "http://webhosting.sd/~kiaapp/contact.php",
 				  data: dataString,
 				  success: function jsonCallback(data){
 					alert("Message sent. We will get back to you shortly..");
@@ -453,7 +453,7 @@ $$(document).on("pageInit", function(e) {
 				  dataType: "jsonp",
 				  jsonpCallback: "jsonCallback",
 				  type: "GET",
-				  url: "http://webhosting.sd/~sasapp/rate.php",
+				  url: "http://webhosting.sd/~kiaapp/rate.php",
 				  data: dataString,
 				  success: function jsonCallback(data){
 					alert("Thank you for submitting your rating");
@@ -488,7 +488,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/aboutar.php',
+						url:'http://webhosting.sd/~kiaapp/aboutar.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -543,7 +543,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/vipar.php',
+						url:'http://webhosting.sd/~kiaapp/vipar.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -604,7 +604,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/baggagear.php',
+						url:'http://webhosting.sd/~kiaapp/baggagear.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -639,7 +639,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/kiaar.php',
+						url:'http://webhosting.sd/~kiaapp/kiaar.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -674,7 +674,7 @@ $$(document).on("pageInit", function(e) {
 				$.ajax({
 						beforeSend: function() { myApp.showIndicator(); },
 						complete: function(){ myApp.hideIndicator(); },
-						url:'http://webhosting.sd/~sasapp/sasar.php',
+						url:'http://webhosting.sd/~kiaapp/sasar.php',
 						dataType: "jsonp",
 						jsonpCallback: "jsonCallback",
 						success:function jsonCallback(data){
@@ -718,7 +718,7 @@ $$(document).on("pageInit", function(e) {
 				  dataType: "jsonp",
 				  jsonpCallback: "jsonCallback",
 				  type: "GET",
-				  url: "http://webhosting.sd/~sasapp/contact.php",
+				  url: "http://webhosting.sd/~kiaapp/contact.php",
 				  data: dataString,
 				  success: function jsonCallback(data){
 					alert("تم إرسال رسالتك بنجاح");
@@ -750,7 +750,7 @@ $$(document).on("pageInit", function(e) {
 				  dataType: "jsonp",
 				  jsonpCallback: "jsonCallback",
 				  type: "GET",
-				  url: "http://webhosting.sd/~sasapp/rate.php",
+				  url: "http://webhosting.sd/~kiaapp/rate.php",
 				  data: dataString,
 				  success: function jsonCallback(data){
 					alert("تم إرسال تقييمك بنجاح");
